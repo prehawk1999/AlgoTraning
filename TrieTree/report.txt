@@ -1,0 +1,1510 @@
+--------------------------------------------------------------------------------
+Profile data file 'callgrind.out.21544' (creator: callgrind-3.10.0)
+--------------------------------------------------------------------------------
+I1 cache: 
+D1 cache: 
+LL cache: 
+Timerange: Basic block 0 - 269051
+Trigger: Program termination
+Profiled target:  ./main (PID 21544, part 1)
+Events recorded:  Ir
+Events shown:     Ir
+Event sort order: Ir
+Thresholds:       99
+Include dirs:     
+User annotated:   
+Auto-annotation:  on
+
+--------------------------------------------------------------------------------
+       Ir 
+--------------------------------------------------------------------------------
+1,502,147  PROGRAM TOTALS
+
+--------------------------------------------------------------------------------
+     Ir  file:function
+--------------------------------------------------------------------------------
+532,781  ???:_dl_lookup_symbol_x [/usr/lib64/ld-2.17.so]
+358,759  ???:do_lookup_x [/usr/lib64/ld-2.17.so]
+194,947  ???:_dl_relocate_object [/usr/lib64/ld-2.17.so]
+119,768  ???:strcmp'2 [/usr/lib64/ld-2.17.so]
+ 68,719  ???:check_match.9347 [/usr/lib64/ld-2.17.so]
+ 56,013  ???:_dl_addr [/usr/lib64/libc-2.17.so]
+ 15,063  ???:strcmp [/usr/lib64/libc-2.17.so]
+ 10,037  ???:_dl_fixup [/usr/lib64/ld-2.17.so]
+  9,295  ???:_dl_name_match_p [/usr/lib64/ld-2.17.so]
+  8,064  ???:btowc [/usr/lib64/libc-2.17.so]
+  7,480  ???:std::locale::_Impl::_M_install_facet(std::locale::id const*, std::locale::facet const*) [/usr/lib64/libstdc++.so.6.0.19]
+  5,918  ???:_int_malloc [/usr/lib64/libc-2.17.so]
+  4,388  ???:_dl_map_object_from_fd [/usr/lib64/ld-2.17.so]
+  3,985  ???:_dl_check_map_versions [/usr/lib64/ld-2.17.so]
+  3,683  ???:_dl_runtime_resolve [/usr/lib64/ld-2.17.so]
+  3,488  ???:_dl_cache_libcmp [/usr/lib64/ld-2.17.so]
+  3,366  /usr/include/c++/4.8.2/bits/stl_algobase.h:__gnu_cxx::__enable_if<std::__is_scalar<(anonymous namespace)::TrieNode*>::__value, (anonymous namespace)::TrieNode**>::__type std::__fill_n_a<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+  3,171  ???:std::ctype<wchar_t>::_M_initialize_ctype() [/usr/lib64/libstdc++.so.6.0.19]
+  2,914  ???:__dynamic_cast [/usr/lib64/libstdc++.so.6.0.19]
+  2,666  ???:_dl_map_object_deps [/usr/lib64/ld-2.17.so]
+  2,432  ???:wctob [/usr/lib64/libc-2.17.so]
+  2,329  /usr/include/c++/4.8.2/bits/vector.tcc:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >, unsigned long, (anonymous namespace)::TrieNode* const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+  2,123  ???:_dl_map_object [/usr/lib64/ld-2.17.so]
+  1,976  ???:bcmp [/usr/lib64/libc-2.17.so]
+  1,925  ???:match_symbol [/usr/lib64/ld-2.17.so]
+  1,804  ???:bsearch [/usr/lib64/libc-2.17.so]
+  1,750  ???:__cxxabiv1::__si_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const [/usr/lib64/libstdc++.so.6.0.19]
+  1,576  ???:malloc [/usr/lib64/libc-2.17.so]
+  1,326  /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::size() const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+  1,318  ???:_IO_file_overflow@@GLIBC_2.2.5 [/usr/lib64/libc-2.17.so]
+  1,208  ???:dl_main [/usr/lib64/ld-2.17.so]
+  1,190  ???:__libc_memalign [/usr/lib64/ld-2.17.so]
+  1,188  ???:strlen [/usr/lib64/libc-2.17.so]
+  1,170  ???:_dl_load_cache_lookup [/usr/lib64/ld-2.17.so]
+  1,159  ???:_dl_new_object [/usr/lib64/ld-2.17.so]
+  1,113  ???:memset [/usr/lib64/libc-2.17.so]
+  1,071  /usr/include/c++/4.8.2/bits/stl_algobase.h:std::_Niter_base<(anonymous namespace)::TrieNode**>::iterator_type std::__niter_base<(anonymous namespace)::TrieNode**>((anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+  1,061  ???:std::ctype<char>::_M_widen_init() const [/usr/lib64/libstdc++.so.6.0.19]
+    989  ???:open_verify [/usr/lib64/ld-2.17.so]
+    988  TrieTree.cpp:(anonymous namespace)::TrieNode::node(char) const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    952  /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::__copy_move_a2<true, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**>((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    947  ???:__GI_strlen [/usr/lib64/libc-2.17.so]
+    936  ???:std::locale::_Impl::_Impl(unsigned long) [/usr/lib64/libstdc++.so.6.0.19]
+    884  /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_check_len(unsigned long, char const*) const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    880  TrieTree.cpp:(anonymous namespace)::Trie::insert(std::string) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    876  ???:wctype_l [/usr/lib64/libc-2.17.so]
+    857  ???:__GI_memcmp [/usr/lib64/libc-2.17.so]
+    847  ???:memcpy [/usr/lib64/ld-2.17.so]
+    816  /usr/include/c++/4.8.2/bits/stl_uninitialized.h:(anonymous namespace)::TrieNode** std::__uninitialized_move_if_noexcept_a<(anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*> >((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*>&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    816  /usr/include/c++/4.8.2/bits/stl_iterator.h:std::move_iterator<(anonymous namespace)::TrieNode**> std::__make_move_if_noexcept_iterator<(anonymous namespace)::TrieNode**, std::move_iterator<(anonymous namespace)::TrieNode**> >((anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    814  ???:intel_check_word [/usr/lib64/libc-2.17.so]
+    808  ???:__cxxabiv1::__vmi_class_type_info::__do_dyncast(long, __cxxabiv1::__class_type_info::__sub_kind, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info const*, void const*, __cxxabiv1::__class_type_info::__dyncast_result&) const [/usr/lib64/libstdc++.so.6.0.19]
+    799  ???:strsep [/usr/lib64/ld-2.17.so]
+    793  ???:malloc_consolidate [/usr/lib64/libc-2.17.so]
+    780  ???:std::locale::id::_M_id() const [/usr/lib64/libstdc++.so.6.0.19]
+    754  ???:_dl_start [/usr/lib64/ld-2.17.so]
+    748  /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::copy<std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**>(std::move_iterator<(anonymous namespace)::TrieNode**>, std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    714  /usr/include/c++/4.8.2/bits/stl_iterator_base_types.h:std::_Iter_base<(anonymous namespace)::TrieNode**, false>::_S_base((anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    692  ???:operator new(unsigned long) [/usr/lib64/libstdc++.so.6.0.19]
+    686  ???:_int_free [/usr/lib64/libc-2.17.so]
+    680  /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<(anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode* const*, (anonymous namespace)::TrieNode* const*, (anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    648  ???:intel_02_known_compare [/usr/lib64/libc-2.17.so]
+    640  ???:__gconv_btwoc_ascii [/usr/lib64/libc-2.17.so]
+    612  TrieTree.cpp:(anonymous namespace)::TrieNode::index(char) const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    612  /usr/include/c++/4.8.2/bits/stl_algobase.h:std::_Miter_base<std::move_iterator<(anonymous namespace)::TrieNode**> >::iterator_type std::__miter_base<std::move_iterator<(anonymous namespace)::TrieNode**> >(std::move_iterator<(anonymous namespace)::TrieNode**>) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    612  /usr/include/c++/4.8.2/bits/stl_iterator.h:std::move_iterator<(anonymous namespace)::TrieNode**>::move_iterator((anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    612  /usr/include/c++/4.8.2/bits/stl_iterator_base_types.h:std::_Iter_base<std::move_iterator<(anonymous namespace)::TrieNode**>, true>::_S_base(std::move_iterator<(anonymous namespace)::TrieNode**>) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    595  /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::resize(unsigned long, (anonymous namespace)::TrieNode* const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    589  ???:_dl_sort_fini [/usr/lib64/ld-2.17.so]
+    588  ???:__strcmp_sse42 [/usr/lib64/libc-2.17.so]
+    572  /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::operator[](unsigned long) const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    567  ???:_IO_default_xsputn [/usr/lib64/libc-2.17.so]
+    549  ???:index [/usr/lib64/ld-2.17.so]
+    546  ???:std::locale::locale() [/usr/lib64/libstdc++.so.6.0.19]
+    540  ???:std::ios_base::ios_base() [/usr/lib64/libstdc++.so.6.0.19]
+    512  ???:_dl_mcount_wrapper_check [/usr/lib64/libc-2.17.so]
+    512  TrieTree.cpp:(anonymous namespace)::TrieNode::insert((anonymous namespace)::TrieNode*) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    510  /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::__copy_move_a<true, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**>((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    510  /usr/include/c++/4.8.2/bits/stl_uninitialized.h:(anonymous namespace)::TrieNode** std::__uninitialized_copy_a<std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode*>(std::move_iterator<(anonymous namespace)::TrieNode**>, std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*>&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    476  /usr/include/c++/4.8.2/bits/stl_uninitialized.h:(anonymous namespace)::TrieNode** std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**>(std::move_iterator<(anonymous namespace)::TrieNode**>, std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    476  /usr/include/c++/4.8.2/bits/stl_uninitialized.h:(anonymous namespace)::TrieNode** std::uninitialized_copy<std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**>(std::move_iterator<(anonymous namespace)::TrieNode**>, std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    476  /usr/include/c++/4.8.2/bits/stl_iterator.h:std::move_iterator<(anonymous namespace)::TrieNode**>::base() const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    460  /usr/include/c++/4.8.2/bits/stl_iterator.h:bool __gnu_cxx::operator!=<char*, std::string>(__gnu_cxx::__normal_iterator<char*, std::string> const&, __gnu_cxx::__normal_iterator<char*, std::string> const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    442  TrieTree.cpp:(anonymous namespace)::TrieNode::TrieNode(char) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    432  ???:_dl_catch_error [/usr/lib64/ld-2.17.so]
+    414  ???:_dl_init [/usr/lib64/ld-2.17.so]
+    413  ???:std::numpunct<char>::_M_initialize_numpunct(__locale_struct*) [/usr/lib64/libstdc++.so.6.0.19]
+    410  ???:_dl_fini [/usr/lib64/ld-2.17.so]
+    408  /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_get_Tp_allocator() [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    408  /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >::base() const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    378  ???:_dl_sysdep_start [/usr/lib64/ld-2.17.so]
+    374  /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >::difference_type __gnu_cxx::operator-<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >(__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > > const&, __gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > > const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    374  /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::max_size() const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    366  ???:_IO_file_xsputn@@GLIBC_2.2.5 [/usr/lib64/libc-2.17.so]
+    349  ???:std::numpunct<wchar_t>::_M_initialize_numpunct(__locale_struct*) [/usr/lib64/libstdc++.so.6.0.19]
+    340  /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >::__normal_iterator((anonymous namespace)::TrieNode** const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    340  /usr/include/c++/4.8.2/ext/new_allocator.h:__gnu_cxx::new_allocator<(anonymous namespace)::TrieNode*>::allocate(unsigned long, void const*) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    334  ???:_dl_allocate_tls_storage [/usr/lib64/ld-2.17.so]
+    328  ???:fflush [/usr/lib64/libc-2.17.so]
+    308  ???:std::ios_base::Init::Init() [/usr/lib64/libstdc++.so.6.0.19]
+    306  /usr/include/c++/4.8.2/ext/new_allocator.h:__gnu_cxx::new_allocator<(anonymous namespace)::TrieNode*>::max_size() const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    306  /usr/include/c++/4.8.2/bits/alloc_traits.h:std::enable_if<std::allocator_traits<std::allocator<(anonymous namespace)::TrieNode*> >::__maxsize_helper<std::allocator<(anonymous namespace)::TrieNode*> const>::value, unsigned long>::type std::allocator_traits<std::allocator<(anonymous namespace)::TrieNode*> >::_S_max_size<std::allocator<(anonymous namespace)::TrieNode*> const>(std::allocator<(anonymous namespace)::TrieNode*> const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    306  /usr/include/c++/4.8.2/bits/alloc_traits.h:std::allocator_traits<std::allocator<(anonymous namespace)::TrieNode*> >::max_size(std::allocator<(anonymous namespace)::TrieNode*> const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    297  ???:__cxa_finalize [/usr/lib64/libc-2.17.so]
+    287  ???:init_cacheinfo [/usr/lib64/libc-2.17.so]
+    278  ???:std::ios_base::_M_init() [/usr/lib64/libstdc++.so.6.0.19]
+    276  /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<char*, std::string>::base() const [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    272  /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_allocate(unsigned long) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    272  /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::fill_n<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    271  ???:ptmalloc_init.part.8 [/usr/lib64/libc-2.17.so]
+    259  ???:__sigsetjmp [/usr/lib64/libc-2.17.so]
+    255  /usr/include/c++/4.8.2/bits/stl_uninitialized.h:void std::__uninitialized_fill_n_a<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&, std::allocator<(anonymous namespace)::TrieNode*>&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    255  /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_Vector_impl::_Vector_impl() [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    255  ???:_dl_important_hwcaps [/usr/lib64/ld-2.17.so]
+    255  /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::insert(__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >, unsigned long, (anonymous namespace)::TrieNode* const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    251  ???:fwrite [/usr/lib64/libc-2.17.so]
+    250  ???:_dl_add_to_namespace_list [/usr/lib64/ld-2.17.so]
+    246  ???:mempcpy [/usr/lib64/ld-2.17.so]
+    240  ???:std::basic_ios<char, std::char_traits<char> >::_M_cache_locale(std::locale const&) [/usr/lib64/libstdc++.so.6.0.19]
+    238  /usr/include/c++/4.8.2/bits/stl_algobase.h:unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    238  /usr/include/c++/4.8.2/bits/stl_uninitialized.h:void std::__uninitialized_fill_n<true>::__uninit_fill_n<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    238  /usr/include/c++/4.8.2/bits/stl_uninitialized.h:void std::uninitialized_fill_n<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    224  ???:0x00000000000714a0 [/usr/lib64/libstdc++.so.6.0.19]
+    222  ???:_dl_next_ld_env_entry [/usr/lib64/ld-2.17.so]
+    221  /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::end() [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    221  /usr/include/c++/4.8.2/bits/stl_construct.h:void std::_Destroy<(anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*>&) [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    221  TrieTree.cpp:main [/home/prehawk/lrn/AlgoTraining/TrieTree/main]
+    215  ???:__new_exitfn [/usr/lib64/libc-2.17.so]
+    207  ???:std::string::end() [/usr/lib64/libstdc++.so.6.0.19]
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8.2/bits/vector.tcc
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 433 ----------------------------------------
+  .  	this->_M_impl._M_start = __new_start;
+  .  	this->_M_impl._M_finish = __new_finish;
+  .  	this->_M_impl._M_end_of_storage = __new_start + __len;
+  .        }
+  .  #endif
+  .  
+  .    template<typename _Tp, typename _Alloc>
+  .      void
+153      vector<_Tp, _Alloc>::
+  .      _M_fill_insert(iterator __position, size_type __n, const value_type& __x)
+  .      {
+ 34        if (__n != 0)
+  .  	{
+170  	  if (size_type(this->_M_impl._M_end_of_storage
+  .  			- this->_M_impl._M_finish) >= __n)
+  .  	    {
+  .  	      value_type __x_copy = __x;
+  .  	      const size_type __elems_after = end() - __position;
+  .  	      pointer __old_finish(this->_M_impl._M_finish);
+  .  	      if (__elems_after > __n)
+  .  		{
+  .  		  std::__uninitialized_move_a(this->_M_impl._M_finish - __n,
+-- line 454 ----------------------------------------
+-- line 473 ----------------------------------------
+  .  					      _M_get_Tp_allocator());
+  .  		  this->_M_impl._M_finish += __elems_after;
+  .  		  std::fill(__position.base(), __old_finish, __x_copy);
+  .  		}
+  .  	    }
+  .  	  else
+  .  	    {
+  .  	      const size_type __len =
+119  		_M_check_len(__n, "vector::_M_fill_insert");
+3,400  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_check_len(unsigned long, char const*) const (17x)
+170  	      const size_type __elems_before = __position - begin();
+374  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::begin() (17x)
+578  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >::difference_type __gnu_cxx::operator-<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >(__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > > const&, __gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > > const&) (17x)
+102  	      pointer __new_start(this->_M_allocate(__len));
+3,876  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_allocate(unsigned long) (17x)
+ 34  	      pointer __new_finish(__new_start);
+  .  	      __try
+  .  		{
+  .  		  // See _M_insert_aux above.
+ 68  		  std::__uninitialized_fill_n_a(__new_start + __elems_before,
+4,624  => /usr/include/c++/4.8.2/bits/stl_uninitialized.h:void std::__uninitialized_fill_n_a<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&, std::allocator<(anonymous namespace)::TrieNode*>&) (17x)
+  .  						__n, __x,
+136  						_M_get_Tp_allocator());
+102  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_get_Tp_allocator() (17x)
+ 17  		  __new_finish = 0;
+  .  
+ 85  		  __new_finish
+4,913  => /usr/include/c++/4.8.2/bits/stl_uninitialized.h:(anonymous namespace)::TrieNode** std::__uninitialized_move_if_noexcept_a<(anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*> >((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*>&) (17x)
+  .  		    = std::__uninitialized_move_if_noexcept_a
+  .  		    (this->_M_impl._M_start, __position.base(),
+170  		     __new_start, _M_get_Tp_allocator());
+102  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >::base() const (17x)
+102  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_get_Tp_allocator() (17x)
+  .  
+ 51  		  __new_finish += __n;
+  .  
+102  		  __new_finish
+4,913  => /usr/include/c++/4.8.2/bits/stl_uninitialized.h:(anonymous namespace)::TrieNode** std::__uninitialized_move_if_noexcept_a<(anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*> >((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*>&) (17x)
+  .  		    = std::__uninitialized_move_if_noexcept_a
+  .  		    (__position.base(), this->_M_impl._M_finish,
+170  		     __new_finish, _M_get_Tp_allocator());
+102  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >::base() const (17x)
+102  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_get_Tp_allocator() (17x)
+  .  		}
+  .  	      __catch(...)
+  .  		{
+  .  		  if (!__new_finish)
+  .  		    std::_Destroy(__new_start + __elems_before,
+  .  				  __new_start + __elems_before + __n,
+  .  				  _M_get_Tp_allocator());
+  .  		  else
+  .  		    std::_Destroy(__new_start, __new_finish,
+  .  				  _M_get_Tp_allocator());
+  .  		  _M_deallocate(__new_start, __len);
+  .  		  __throw_exception_again;
+  .  		}
+ 51  	      std::_Destroy(this->_M_impl._M_start, this->_M_impl._M_finish,
+527  => /usr/include/c++/4.8.2/bits/stl_construct.h:void std::_Destroy<(anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*>&) (17x)
+136  			    _M_get_Tp_allocator());
+102  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_get_Tp_allocator() (17x)
+ 51  	      _M_deallocate(this->_M_impl._M_start,
+170  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_deallocate((anonymous namespace)::TrieNode**, unsigned long) (17x)
+  .  			    this->_M_impl._M_end_of_storage
+204  			    - this->_M_impl._M_start);
+ 51  	      this->_M_impl._M_start = __new_start;
+ 51  	      this->_M_impl._M_finish = __new_finish;
+119  	      this->_M_impl._M_end_of_storage = __new_start + __len;
+  .  	    }
+  .  	}
+ 85      }
+  .  
+  .  #if __cplusplus >= 201103L
+  .    template<typename _Tp, typename _Alloc>
+  .      void
+  .      vector<_Tp, _Alloc>::
+  .      _M_default_append(size_type __n)
+  .      {
+  .        if (__n != 0)
+-- line 535 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8.2/bits/stl_construct.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 104 ----------------------------------------
+  .  	}
+  .      };
+  .  
+  .    template<>
+  .      struct _Destroy_aux<true>
+  .      {
+  .        template<typename _ForwardIterator>
+  .          static void
+102          __destroy(_ForwardIterator, _ForwardIterator) { }
+  .      };
+  .  
+  .    /**
+  .     * Destroy a range of objects.  If the value_type of the object has
+  .     * a trivial destructor, the compiler should optimize all of this
+  .     * away, otherwise the objects' destructors must be invoked.
+  .     */
+  .    template<typename _ForwardIterator>
+  .      inline void
+ 85      _Destroy(_ForwardIterator __first, _ForwardIterator __last)
+  .      {
+  .        typedef typename iterator_traits<_ForwardIterator>::value_type
+  .                         _Value_type;
+ 85        std::_Destroy_aux<__has_trivial_destructor(_Value_type)>::
+102  => /usr/include/c++/4.8.2/bits/stl_construct.h:void std::_Destroy_aux<true>::__destroy<(anonymous namespace)::TrieNode**>((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**) (17x)
+  .  	__destroy(__first, __last);
+ 34      }
+  .  
+  .    /**
+  .     * Destroy a range of objects using the supplied allocator.  For
+  .     * nondefault allocators we do not optimize away invocation of 
+  .     * destroy() even if _Tp has a trivial destructor.
+  .     */
+  .  
+  .    template<typename _ForwardIterator, typename _Allocator>
+-- line 136 ----------------------------------------
+-- line 140 ----------------------------------------
+  .      {
+  .        typedef __gnu_cxx::__alloc_traits<_Allocator> __traits;
+  .        for (; __first != __last; ++__first)
+  .  	__traits::destroy(__alloc, std::__addressof(*__first));
+  .      }
+  .  
+  .    template<typename _ForwardIterator, typename _Tp>
+  .      inline void
+102      _Destroy(_ForwardIterator __first, _ForwardIterator __last,
+  .  	     allocator<_Tp>&)
+  .      {
+ 85        _Destroy(__first, __last);
+306  => /usr/include/c++/4.8.2/bits/stl_construct.h:void std::_Destroy<(anonymous namespace)::TrieNode**>((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**) (17x)
+ 34      }
+  .  
+  .  _GLIBCXX_END_NAMESPACE_VERSION
+  .  } // namespace std
+  .  
+  .  #endif /* _STL_CONSTRUCT_H */
+  .  
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8.2/bits/stl_vector.h
+--------------------------------------------------------------------------------
+   Ir 
+
+-- line 78 ----------------------------------------
+    .  
+    .        struct _Vector_impl 
+    .        : public _Tp_alloc_type
+    .        {
+    .  	pointer _M_start;
+    .  	pointer _M_finish;
+    .  	pointer _M_end_of_storage;
+    .  
+   68  	_Vector_impl()
+  153  	: _Tp_alloc_type(), _M_start(0), _M_finish(0), _M_end_of_storage(0)
+  238  => /usr/include/c++/4.8.2/bits/allocator.h:std::allocator<(anonymous namespace)::TrieNode*>::allocator() (17x)
+   34  	{ }
+    .  
+    .  	_Vector_impl(_Tp_alloc_type const& __a)
+    .  	: _Tp_alloc_type(__a), _M_start(0), _M_finish(0), _M_end_of_storage(0)
+    .  	{ }
+    .  
+    .  #if __cplusplus >= 201103L
+    .  	_Vector_impl(_Tp_alloc_type&& __a)
+    .  	: _Tp_alloc_type(std::move(__a)),
+-- line 96 ----------------------------------------
+-- line 105 ----------------------------------------
+    .  	  std::swap(_M_end_of_storage, __x._M_end_of_storage);
+    .  	}
+    .        };
+    .        
+    .      public:
+    .        typedef _Alloc allocator_type;
+    .  
+    .        _Tp_alloc_type&
+  204        _M_get_Tp_allocator() _GLIBCXX_NOEXCEPT
+  204        { return *static_cast<_Tp_alloc_type*>(&this->_M_impl); }
+    .  
+    .        const _Tp_alloc_type&
+  102        _M_get_Tp_allocator() const _GLIBCXX_NOEXCEPT
+  102        { return *static_cast<const _Tp_alloc_type*>(&this->_M_impl); }
+    .  
+    .        allocator_type
+    .        get_allocator() const _GLIBCXX_NOEXCEPT
+    .        { return allocator_type(_M_get_Tp_allocator()); }
+    .  
+   68        _Vector_base()
+   85        : _M_impl() { }
+  493  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_Vector_impl::_Vector_impl() (17x)
+    .  
+    .        _Vector_base(const allocator_type& __a)
+    .        : _M_impl(__a) { }
+    .  
+    .        _Vector_base(size_t __n)
+    .        : _M_impl()
+    .        { _M_create_storage(__n); }
+    .  
+-- line 133 ----------------------------------------
+-- line 159 ----------------------------------------
+    .        ~_Vector_base()
+    .        { _M_deallocate(this->_M_impl._M_start, this->_M_impl._M_end_of_storage
+    .  		      - this->_M_impl._M_start); }
+    .  
+    .      public:
+    .        _Vector_impl _M_impl;
+    .  
+    .        pointer
+   85        _M_allocate(size_t __n)
+  187        { return __n != 0 ? _M_impl.allocate(__n) : 0; }
+3,604  => /usr/include/c++/4.8.2/ext/new_allocator.h:__gnu_cxx::new_allocator<(anonymous namespace)::TrieNode*>::allocate(unsigned long, void const*) (17x)
+    .  
+    .        void
+  102        _M_deallocate(pointer __p, size_t __n)
+    .        {
+   34  	if (__p)
+    .  	  _M_impl.deallocate(__p, __n);
+   34        }
+    .  
+    .      private:
+    .        void
+    .        _M_create_storage(size_t __n)
+    .        {
+    .  	this->_M_impl._M_start = this->_M_allocate(__n);
+    .  	this->_M_impl._M_finish = this->_M_impl._M_start;
+    .  	this->_M_impl._M_end_of_storage = this->_M_impl._M_start + __n;
+-- line 183 ----------------------------------------
+-- line 240 ----------------------------------------
+    .        using _Base::_M_get_Tp_allocator;
+    .  
+    .      public:
+    .        // [23.2.4.1] construct/copy/destroy
+    .        // (assign() and get_allocator() are also listed in this section)
+    .        /**
+    .         *  @brief  Default constructor creates no elements.
+    .         */
+   68        vector()
+   85        : _Base() { }
+  646  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_Vector_base() (17x)
+    .  
+    .        /**
+    .         *  @brief  Creates a %vector with no elements.
+    .         *  @param  __a  An allocator object.
+    .         */
+    .        explicit
+    .        vector(const allocator_type& __a)
+    .        : _Base(__a) { }
+-- line 257 ----------------------------------------
+-- line 530 ----------------------------------------
+    .  
+    .        // iterators
+    .        /**
+    .         *  Returns a read/write iterator that points to the first
+    .         *  element in the %vector.  Iteration is done in ordinary
+    .         *  element order.
+    .         */
+    .        iterator
+   68        begin() _GLIBCXX_NOEXCEPT
+  136        { return iterator(this->_M_impl._M_start); }
+  170  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >::__normal_iterator((anonymous namespace)::TrieNode** const&) (17x)
+    .  
+    .        /**
+    .         *  Returns a read-only (constant) iterator that points to the
+    .         *  first element in the %vector.  Iteration is done in ordinary
+    .         *  element order.
+    .         */
+    .        const_iterator
+    .        begin() const _GLIBCXX_NOEXCEPT
+-- line 547 ----------------------------------------
+-- line 548 ----------------------------------------
+    .        { return const_iterator(this->_M_impl._M_start); }
+    .  
+    .        /**
+    .         *  Returns a read/write iterator that points one past the last
+    .         *  element in the %vector.  Iteration is done in ordinary
+    .         *  element order.
+    .         */
+    .        iterator
+   68        end() _GLIBCXX_NOEXCEPT
+  153        { return iterator(this->_M_impl._M_finish); }
+  170  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >::__normal_iterator((anonymous namespace)::TrieNode** const&) (17x)
+    .  
+    .        /**
+    .         *  Returns a read-only (constant) iterator that points one past
+    .         *  the last element in the %vector.  Iteration is done in
+    .         *  ordinary element order.
+    .         */
+    .        const_iterator
+    .        end() const _GLIBCXX_NOEXCEPT
+-- line 565 ----------------------------------------
+-- line 637 ----------------------------------------
+    .        const_reverse_iterator
+    .        crend() const noexcept
+    .        { return const_reverse_iterator(begin()); }
+    .  #endif
+    .  
+    .        // [23.2.4.2] capacity
+    .        /**  Returns the number of elements in the %vector.  */
+    .        size_type
+  306        size() const _GLIBCXX_NOEXCEPT
+1,020        { return size_type(this->_M_impl._M_finish - this->_M_impl._M_start); }
+    .  
+    .        /**  Returns the size() of the largest possible %vector.  */
+    .        size_type
+  136        max_size() const _GLIBCXX_NOEXCEPT
+  238        { return _Alloc_traits::max_size(_M_get_Tp_allocator()); }
+  816  => /usr/include/c++/4.8.2/bits/alloc_traits.h:std::allocator_traits<std::allocator<(anonymous namespace)::TrieNode*> >::max_size(std::allocator<(anonymous namespace)::TrieNode*> const&) (34x)
+  204  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::_Vector_base<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_get_Tp_allocator() const (34x)
+    .  
+    .  #if __cplusplus >= 201103L
+    .        /**
+    .         *  @brief  Resizes the %vector to the specified number of elements.
+    .         *  @param  __new_size  Number of elements the %vector should contain.
+    .         *
+    .         *  This function will %resize the %vector to the specified
+    .         *  number of elements.  If the number is smaller than the
+-- line 659 ----------------------------------------
+-- line 676 ----------------------------------------
+    .         *
+    .         *  This function will %resize the %vector to the specified
+    .         *  number of elements.  If the number is smaller than the
+    .         *  %vector's current size the %vector is truncated, otherwise
+    .         *  the %vector is extended and new elements are populated with
+    .         *  given data.
+    .         */
+    .        void
+  119        resize(size_type __new_size, const value_type& __x)
+    .        {
+  119  	if (__new_size > size())
+  221  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::size() const (17x)
+  289  	  insert(end(), __new_size - size(), __x);
+26,571  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::insert(__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >, unsigned long, (anonymous namespace)::TrieNode* const&) (17x)
+  391  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::end() (17x)
+  221  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::size() const (17x)
+    .  	else if (__new_size < size())
+    .  	  _M_erase_at_end(this->_M_impl._M_start + __new_size);
+   68        }
+    .  #else
+    .        /**
+    .         *  @brief  Resizes the %vector to the specified number of elements.
+    .         *  @param  __new_size  Number of elements the %vector should contain.
+    .         *  @param  __x  Data with which new elements should be populated.
+    .         *
+    .         *  This function will %resize the %vector to the specified
+    .         *  number of elements.  If the number is smaller than the
+-- line 698 ----------------------------------------
+-- line 762 ----------------------------------------
+    .         *  @return  Read/write reference to data.
+    .         *
+    .         *  This operator allows for easy, array-style, data access.
+    .         *  Note that data access with this operator is unchecked and
+    .         *  out_of_range lookups are not defined. (For checked lookups
+    .         *  see at().)
+    .         */
+    .        reference
+   64        operator[](size_type __n)
+  112        { return *(this->_M_impl._M_start + __n); }
+    .  
+    .        /**
+    .         *  @brief  Subscript access to the data contained in the %vector.
+    .         *  @param __n The index of the element for which data should be
+    .         *  accessed.
+    .         *  @return  Read-only (constant) reference to data.
+    .         *
+    .         *  This operator allows for easy, array-style, data access.
+    .         *  Note that data access with this operator is unchecked and
+    .         *  out_of_range lookups are not defined. (For checked lookups
+    .         *  see at().)
+    .         */
+    .        const_reference
+  208        operator[](size_type __n) const
+  364        { return *(this->_M_impl._M_start + __n); }
+    .  
+    .      protected:
+    .        /// Safety check used only from at().
+    .        void
+    .        _M_range_check(size_type __n) const
+    .        {
+    .  	if (__n >= this->size())
+    .  	  __throw_out_of_range(__N("vector::_M_range_check"));
+-- line 794 ----------------------------------------
+-- line 1015 ----------------------------------------
+    .         *  This function will insert a specified number of copies of
+    .         *  the given data before the location specified by @a position.
+    .         *
+    .         *  Note that this kind of operation could be expensive for a
+    .         *  %vector and if it is frequently used the user should
+    .         *  consider using std::list.
+    .         */
+    .        void
+  119        insert(iterator __position, size_type __n, const value_type& __x)
+  136        { _M_fill_insert(__position, __n, __x); }
+26,316  => /usr/include/c++/4.8.2/bits/vector.tcc:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::_M_fill_insert(__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >, unsigned long, (anonymous namespace)::TrieNode* const&) (17x)
+    .  
+    .        /**
+    .         *  @brief  Inserts a range into the %vector.
+    .         *  @param  __position  An iterator into the %vector.
+    .         *  @param  __first  An input iterator.
+    .         *  @param  __last   An input iterator.
+    .         *
+    .         *  This function will insert copies of the data in the range
+-- line 1032 ----------------------------------------
+-- line 1328 ----------------------------------------
+    .  
+    .        template<typename... _Args>
+    .          void
+    .          _M_emplace_back_aux(_Args&&... __args);
+    .  #endif
+    .  
+    .        // Called by the latter.
+    .        size_type
+  119        _M_check_len(size_type __n, const char* __s) const
+    .        {
+  238  	if (max_size() - size() < __n)
+  697  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::max_size() const (17x)
+  221  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::size() const (17x)
+    .  	  __throw_length_error(__N(__s));
+    .  
+  272  	const size_type __len = size() + std::max(size(), __n);
+  238  => /usr/include/c++/4.8.2/bits/stl_algobase.h:unsigned long const& std::max<unsigned long>(unsigned long const&, unsigned long const&) (17x)
+  442  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::size() const (34x)
+  187  	return (__len < size() || __len > max_size()) ? max_size() : __len;
+  697  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::max_size() const (17x)
+  221  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::size() const (17x)
+   68        }
+    .  
+    .        // Internal erase functions follow.
+    .  
+    .        // Called by erase(q1,q2), clear(), resize(), _M_fill_assign,
+    .        // _M_assign_aux.
+    .        void
+    .        _M_erase_at_end(pointer __pos)
+    .        {
+-- line 1351 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8.2/bits/alloc_traits.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 297 ----------------------------------------
+  .  
+  .  	  typedef decltype(__test<_Alloc2>(0)) type;
+  .  	  static const bool value = type::value;
+  .  	};
+  .  
+  .        template<typename _Alloc2>
+  .  	static typename
+  .         	enable_if<__maxsize_helper<_Alloc2>::value, size_type>::type
+136         	_S_max_size(_Alloc2& __a)
+170  	{ return __a.max_size(); }
+204  => /usr/include/c++/4.8.2/ext/new_allocator.h:__gnu_cxx::new_allocator<(anonymous namespace)::TrieNode*>::max_size() const (34x)
+  .  
+  .        template<typename _Alloc2>
+  .  	static typename
+  .         	enable_if<!__maxsize_helper<_Alloc2>::value, size_type>::type
+  .  	_S_max_size(_Alloc2&)
+  .  	{ return __gnu_cxx::__numeric_traits<size_type>::__max; }
+  .  
+  .        template<typename _Alloc2>
+-- line 314 ----------------------------------------
+-- line 407 ----------------------------------------
+  .        /**
+  .         *  @brief  The maximum supported allocation size
+  .         *  @param  __a  An allocator.
+  .         *  @return @c __a.max_size() or @c numeric_limits<size_type>::max()
+  .         *
+  .         *  Returns @c __a.max_size() if that expression is well-formed,
+  .         *  otherwise returns @c numeric_limits<size_type>::max()
+  .        */
+136        static size_type max_size(const _Alloc& __a)
+170        { return _S_max_size(__a); }
+510  => /usr/include/c++/4.8.2/bits/alloc_traits.h:std::enable_if<std::allocator_traits<std::allocator<(anonymous namespace)::TrieNode*> >::__maxsize_helper<std::allocator<(anonymous namespace)::TrieNode*> const>::value, unsigned long>::type std::allocator_traits<std::allocator<(anonymous namespace)::TrieNode*> >::_S_max_size<std::allocator<(anonymous namespace)::TrieNode*> const>(std::allocator<(anonymous namespace)::TrieNode*> const&) (34x)
+  .  
+  .        /**
+  .         *  @brief  Obtain an allocator to use when copying a container.
+  .         *  @param  __rhs  An allocator.
+  .         *  @return @c __rhs.select_on_container_copy_construction() or @a __rhs
+  .         *
+  .         *  Returns @c __rhs.select_on_container_copy_construction() if that
+  .         *  expression is well-formed, otherwise returns @a __rhs
+-- line 424 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8.2/bits/stl_iterator_base_types.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 204 ----------------------------------------
+  .    //@}
+  .  
+  .    // If _Iterator has a base returns it otherwise _Iterator is returned
+  .    // untouched
+  .    template<typename _Iterator, bool _HasBase>
+  .      struct _Iter_base
+  .      {
+  .        typedef _Iterator iterator_type;
+357        static iterator_type _S_base(_Iterator __it)
+357        { return __it; }
+  .      };
+  .  
+  .    template<typename _Iterator>
+  .      struct _Iter_base<_Iterator, true>
+  .      {
+  .        typedef typename _Iterator::iterator_type iterator_type;
+272        static iterator_type _S_base(_Iterator __it)
+340        { return __it.base(); }
+476  => /usr/include/c++/4.8.2/bits/stl_iterator.h:std::move_iterator<(anonymous namespace)::TrieNode**>::base() const (68x)
+  .      };
+  .  
+  .  #if __cplusplus >= 201103L
+  .    template<typename _InIter>
+  .      using _RequireInputIter = typename
+  .        enable_if<is_convertible<typename
+  .  		iterator_traits<_InIter>::iterator_category,
+  .  			       input_iterator_tag>::value>::type;
+-- line 229 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8.2/bits/stl_uninitialized.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 83 ----------------------------------------
+  .  	}
+  .      };
+  .  
+  .    template<>
+  .      struct __uninitialized_copy<true>
+  .      {
+  .        template<typename _InputIterator, typename _ForwardIterator>
+  .          static _ForwardIterator
+204          __uninit_copy(_InputIterator __first, _InputIterator __last,
+  .  		      _ForwardIterator __result)
+272          { return std::copy(__first, __last, __result); }
+6,120  => /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::copy<std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**>(std::move_iterator<(anonymous namespace)::TrieNode**>, std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**) (34x)
+  .      };
+  .  
+  .    /**
+  .     *  @brief Copies the range [first,last) into result.
+  .     *  @param  __first  An input iterator.
+  .     *  @param  __last   An input iterator.
+  .     *  @param  __result An output iterator.
+  .     *  @return   __result + (__first - __last)
+  .     *
+  .     *  Like copy(), but does not require an initialized output range.
+  .    */
+  .    template<typename _InputIterator, typename _ForwardIterator>
+  .      inline _ForwardIterator
+204      uninitialized_copy(_InputIterator __first, _InputIterator __last,
+  .  		       _ForwardIterator __result)
+  .      {
+  .        typedef typename iterator_traits<_InputIterator>::value_type
+  .  	_ValueType1;
+  .        typedef typename iterator_traits<_ForwardIterator>::value_type
+  .  	_ValueType2;
+  .  
+  .        return std::__uninitialized_copy<(__is_trivial(_ValueType1)
+  .  					&& __is_trivial(_ValueType2))>::
+204  	__uninit_copy(__first, __last, __result);
+6,596  => /usr/include/c++/4.8.2/bits/stl_uninitialized.h:(anonymous namespace)::TrieNode** std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**>(std::move_iterator<(anonymous namespace)::TrieNode**>, std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**) (34x)
+ 68      }
+  .  
+  .  
+  .    template<bool _TrivialValueType>
+  .      struct __uninitialized_fill
+  .      {
+  .        template<typename _ForwardIterator, typename _Tp>
+  .          static void
+  .          __uninit_fill(_ForwardIterator __first, _ForwardIterator __last,
+-- line 126 ----------------------------------------
+-- line 194 ----------------------------------------
+  .  	}
+  .      };
+  .  
+  .    template<>
+  .      struct __uninitialized_fill_n<true>
+  .      {
+  .        template<typename _ForwardIterator, typename _Size, typename _Tp>
+  .          static void
+102          __uninit_fill_n(_ForwardIterator __first, _Size __n,
+  .  			const _Tp& __x)
+136          { std::fill_n(__first, __n, __x); }
+3,893  => /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::fill_n<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&) (17x)
+  .      };
+  .  
+  .    /**
+  .     *  @brief Copies the value x into the range [first,first+n).
+  .     *  @param  __first  An input iterator.
+  .     *  @param  __n      The number of copies to make.
+  .     *  @param  __x      The source value.
+  .     *  @return   Nothing.
+  .     *
+  .     *  Like fill_n(), but does not require an initialized output range.
+  .    */
+  .    template<typename _ForwardIterator, typename _Size, typename _Tp>
+  .      inline void
+102      uninitialized_fill_n(_ForwardIterator __first, _Size __n, const _Tp& __x)
+  .      {
+  .        typedef typename iterator_traits<_ForwardIterator>::value_type
+  .  	_ValueType;
+  .  
+102        std::__uninitialized_fill_n<__is_trivial(_ValueType)>::
+4,131  => /usr/include/c++/4.8.2/bits/stl_uninitialized.h:void std::__uninitialized_fill_n<true>::__uninit_fill_n<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&) (17x)
+  .  	__uninit_fill_n(__first, __n, __x);
+ 34      }
+  .  
+  .    // Extensions: versions of uninitialized_copy, uninitialized_fill,
+  .    //  and uninitialized_fill_n that take an allocator parameter.
+  .    //  We dispatch back to the standard versions when we're given the
+  .    //  default allocator.  For nondefault allocators we do not use 
+  .    //  any of the POD optimizations.
+  .  
+  .    template<typename _InputIterator, typename _ForwardIterator,
+-- line 233 ----------------------------------------
+-- line 248 ----------------------------------------
+  .  	{
+  .  	  std::_Destroy(__result, __cur, __alloc);
+  .  	  __throw_exception_again;
+  .  	}
+  .      }
+  .  
+  .    template<typename _InputIterator, typename _ForwardIterator, typename _Tp>
+  .      inline _ForwardIterator
+238      __uninitialized_copy_a(_InputIterator __first, _InputIterator __last,
+  .  			   _ForwardIterator __result, allocator<_Tp>&)
+272      { return std::uninitialized_copy(__first, __last, __result); }
+7,072  => /usr/include/c++/4.8.2/bits/stl_uninitialized.h:(anonymous namespace)::TrieNode** std::uninitialized_copy<std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**>(std::move_iterator<(anonymous namespace)::TrieNode**>, std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**) (34x)
+  .  
+  .    template<typename _InputIterator, typename _ForwardIterator,
+  .  	   typename _Allocator>
+  .      inline _ForwardIterator
+  .      __uninitialized_move_a(_InputIterator __first, _InputIterator __last,
+  .  			   _ForwardIterator __result, _Allocator& __alloc)
+  .      {
+  .        return std::__uninitialized_copy_a(_GLIBCXX_MAKE_MOVE_ITERATOR(__first),
+  .  					 _GLIBCXX_MAKE_MOVE_ITERATOR(__last),
+  .  					 __result, __alloc);
+  .      }
+  .  
+  .    template<typename _InputIterator, typename _ForwardIterator,
+  .  	   typename _Allocator>
+  .      inline _ForwardIterator
+272      __uninitialized_move_if_noexcept_a(_InputIterator __first,
+  .  				       _InputIterator __last,
+  .  				       _ForwardIterator __result,
+  .  				       _Allocator& __alloc)
+  .      {
+  .        return std::__uninitialized_copy_a
+  .  	(_GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__first),
+408  	 _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(__last), __result, __alloc);
+7,582  => /usr/include/c++/4.8.2/bits/stl_uninitialized.h:(anonymous namespace)::TrieNode** std::__uninitialized_copy_a<std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode*>(std::move_iterator<(anonymous namespace)::TrieNode**>, std::move_iterator<(anonymous namespace)::TrieNode**>, (anonymous namespace)::TrieNode**, std::allocator<(anonymous namespace)::TrieNode*>&) (34x)
+1,428  => /usr/include/c++/4.8.2/bits/stl_iterator.h:std::move_iterator<(anonymous namespace)::TrieNode**> std::__make_move_if_noexcept_iterator<(anonymous namespace)::TrieNode**, std::move_iterator<(anonymous namespace)::TrieNode**> >((anonymous namespace)::TrieNode**) (68x)
+136      }
+  .  
+  .    template<typename _ForwardIterator, typename _Tp, typename _Allocator>
+  .      void
+  .      __uninitialized_fill_a(_ForwardIterator __first, _ForwardIterator __last,
+  .  			   const _Tp& __x, _Allocator& __alloc)
+  .      {
+  .        _ForwardIterator __cur = __first;
+  .        __try
+-- line 290 ----------------------------------------
+-- line 324 ----------------------------------------
+  .  	  std::_Destroy(__first, __cur, __alloc);
+  .  	  __throw_exception_again;
+  .  	}
+  .      }
+  .  
+  .    template<typename _ForwardIterator, typename _Size, typename _Tp,
+  .  	   typename _Tp2>
+  .      inline void
+119      __uninitialized_fill_n_a(_ForwardIterator __first, _Size __n, 
+  .  			     const _Tp& __x, allocator<_Tp2>&)
+136      { std::uninitialized_fill_n(__first, __n, __x); }
+4,369  => /usr/include/c++/4.8.2/bits/stl_uninitialized.h:void std::uninitialized_fill_n<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&) (17x)
+  .  
+  .  
+  .    // Extensions: __uninitialized_copy_move, __uninitialized_move_copy,
+  .    // __uninitialized_fill_move, __uninitialized_move_fill.
+  .    // All of these algorithms take a user-supplied allocator, which is used
+  .    // for construction and destruction.
+  .  
+  .    // __uninitialized_copy_move
+-- line 342 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8.2/bits/stl_iterator.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 718 ----------------------------------------
+  .        typedef typename __traits_type::value_type  	value_type;
+  .        typedef typename __traits_type::difference_type 	difference_type;
+  .        typedef typename __traits_type::reference 	reference;
+  .        typedef typename __traits_type::pointer   	pointer;
+  .  
+  .        _GLIBCXX_CONSTEXPR __normal_iterator() : _M_current(_Iterator()) { }
+  .  
+  .        explicit
+340        __normal_iterator(const _Iterator& __i) : _M_current(__i) { }
+  .  
+  .        // Allow iterator to const_iterator conversion
+  .        template<typename _Iter>
+  .          __normal_iterator(const __normal_iterator<_Iter,
+  .  			  typename __enable_if<
+  .        	       (std::__are_same<_Iter, typename _Container::pointer>::__value),
+  .  		      _Container>::__type>& __i)
+  .          : _M_current(__i.base()) { }
+  .  
+  .        // Forward iterator requirements
+  .        reference
+ 54        operator*() const
+ 72        { return *_M_current; }
+  .  
+  .        pointer
+  .        operator->() const
+  .        { return _M_current; }
+  .  
+  .        __normal_iterator&
+ 54        operator++()
+  .        {
+ 90  	++_M_current;
+ 18  	return *this;
+ 36        }
+  .  
+  .        __normal_iterator
+  .        operator++(int)
+  .        { return __normal_iterator(_M_current++); }
+  .  
+  .        // Bidirectional iterator requirements
+  .        __normal_iterator&
+  .        operator--()
+-- line 758 ----------------------------------------
+-- line 782 ----------------------------------------
+  .        operator-=(const difference_type& __n)
+  .        { _M_current -= __n; return *this; }
+  .  
+  .        __normal_iterator
+  .        operator-(const difference_type& __n) const
+  .        { return __normal_iterator(_M_current - __n); }
+  .  
+  .        const _Iterator&
+342        base() const
+342        { return _M_current; }
+  .      };
+  .  
+  .    // Note: In what follows, the left- and right-hand-side iterators are
+  .    // allowed to vary in types (conceptually in cv-qualification) so that
+  .    // comparison between cv-qualified and non-cv-qualified iterators be
+  .    // valid.  However, the greedy and unfriendly operators in std::rel_ops
+  .    // will make overload resolution ambiguous (when in scope) if we don't
+  .    // provide overloads whose operands are of the same type.  Can someone
+-- line 799 ----------------------------------------
+-- line 815 ----------------------------------------
+  .    template<typename _IteratorL, typename _IteratorR, typename _Container>
+  .      inline bool
+  .      operator!=(const __normal_iterator<_IteratorL, _Container>& __lhs,
+  .  	       const __normal_iterator<_IteratorR, _Container>& __rhs)
+  .      { return __lhs.base() != __rhs.base(); }
+  .  
+  .    template<typename _Iterator, typename _Container>
+  .      inline bool
+138      operator!=(const __normal_iterator<_Iterator, _Container>& __lhs,
+  .  	       const __normal_iterator<_Iterator, _Container>& __rhs)
+322      { return __lhs.base() != __rhs.base(); }
+276  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<char*, std::string>::base() const (46x)
+  .  
+  .    // Random access iterator requirements
+  .    template<typename _IteratorL, typename _IteratorR, typename _Container>
+  .      inline bool
+  .      operator<(const __normal_iterator<_IteratorL, _Container>& __lhs,
+  .  	      const __normal_iterator<_IteratorR, _Container>& __rhs)
+  .      { return __lhs.base() < __rhs.base(); }
+  .  
+-- line 833 ----------------------------------------
+-- line 888 ----------------------------------------
+  .      inline typename __normal_iterator<_IteratorL, _Container>::difference_type
+  .      operator-(const __normal_iterator<_IteratorL, _Container>& __lhs,
+  .  	      const __normal_iterator<_IteratorR, _Container>& __rhs)
+  .  #endif
+  .      { return __lhs.base() - __rhs.base(); }
+  .  
+  .    template<typename _Iterator, typename _Container>
+  .      inline typename __normal_iterator<_Iterator, _Container>::difference_type
+102      operator-(const __normal_iterator<_Iterator, _Container>& __lhs,
+  .  	      const __normal_iterator<_Iterator, _Container>& __rhs)
+272      { return __lhs.base() - __rhs.base(); }
+204  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<(anonymous namespace)::TrieNode**, std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> > >::base() const (34x)
+  .  
+  .    template<typename _Iterator, typename _Container>
+  .      inline __normal_iterator<_Iterator, _Container>
+  .      operator+(typename __normal_iterator<_Iterator, _Container>::difference_type
+  .  	      __n, const __normal_iterator<_Iterator, _Container>& __i)
+  .      { return __normal_iterator<_Iterator, _Container>(__i.base() + __n); }
+  .  
+  .  _GLIBCXX_END_NAMESPACE_VERSION
+-- line 906 ----------------------------------------
+-- line 942 ----------------------------------------
+  .        // NB: DR 680.
+  .        typedef _Iterator					pointer;
+  .        typedef value_type&&				reference;
+  .  
+  .        move_iterator()
+  .        : _M_current() { }
+  .  
+  .        explicit
+272        move_iterator(iterator_type __i)
+340        : _M_current(__i) { }
+  .  
+  .        template<typename _Iter>
+  .  	move_iterator(const move_iterator<_Iter>& __i)
+  .  	: _M_current(__i.base()) { }
+  .  
+  .        iterator_type
+204        base() const
+272        { return _M_current; }
+  .  
+  .        reference
+  .        operator*() const
+  .        { return std::move(*_M_current); }
+  .  
+  .        pointer
+  .        operator->() const
+  .        { return _M_current; }
+-- line 967 ----------------------------------------
+-- line 1124 ----------------------------------------
+  .      make_move_iterator(_Iterator __i)
+  .      { return move_iterator<_Iterator>(__i); }
+  .  
+  .    template<typename _Iterator, typename _ReturnType
+  .      = typename conditional<__move_if_noexcept_cond
+  .        <typename iterator_traits<_Iterator>::value_type>::value,
+  .                  _Iterator, move_iterator<_Iterator>>::type>
+  .      inline _ReturnType
+272      __make_move_if_noexcept_iterator(_Iterator __i)
+544      { return _ReturnType(__i); }
+612  => /usr/include/c++/4.8.2/bits/stl_iterator.h:std::move_iterator<(anonymous namespace)::TrieNode**>::move_iterator((anonymous namespace)::TrieNode**) (68x)
+  .  
+  .    // @} group iterators
+  .  
+  .  _GLIBCXX_END_NAMESPACE_VERSION
+  .  } // namespace
+  .  
+  .  #define _GLIBCXX_MAKE_MOVE_ITERATOR(_Iter) std::make_move_iterator(_Iter)
+  .  #define _GLIBCXX_MAKE_MOVE_IF_NOEXCEPT_ITERATOR(_Iter) \
+-- line 1141 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8.2/bits/stl_algobase.h
+--------------------------------------------------------------------------------
+   Ir 
+
+-- line 208 ----------------------------------------
+    .     *  @return   The greater of the parameters.
+    .     *
+    .     *  This is the simple classic generic implementation.  It will work on
+    .     *  temporary expressions, since they are only evaluated once, unlike a
+    .     *  preprocessor macro.
+    .    */
+    .    template<typename _Tp>
+    .      inline const _Tp&
+   68      max(const _Tp& __a, const _Tp& __b)
+    .      {
+    .        // concept requirements
+    .        __glibcxx_function_requires(_LessThanComparableConcept<_Tp>)
+    .        //return  __a < __b ? __b : __a;
+  102        if (__a < __b)
+   34  	return __b;
+    .        return __a;
+   34      }
+    .  
+    .    /**
+    .     *  @brief This does what you think it does.
+    .     *  @ingroup sorting_algorithms
+    .     *  @param  __a  A thing of arbitrary type.
+    .     *  @param  __b  Another thing of arbitrary type.
+    .     *  @param  __comp  A @link comparison_functors comparison functor@endlink.
+    .     *  @return   The lesser of the parameters.
+-- line 232 ----------------------------------------
+-- line 269 ----------------------------------------
+    .    // normally) otherwise return it untouched.  See copy, fill, ... 
+    .    template<typename _Iterator>
+    .      struct _Niter_base
+    .      : _Iter_base<_Iterator, __is_normal_iterator<_Iterator>::__value>
+    .      { };
+    .  
+    .    template<typename _Iterator>
+    .      inline typename _Niter_base<_Iterator>::iterator_type
+  476      __niter_base(_Iterator __it)
+  595      { return std::_Niter_base<_Iterator>::_S_base(__it); }
+  714  => /usr/include/c++/4.8.2/bits/stl_iterator_base_types.h:std::_Iter_base<(anonymous namespace)::TrieNode**, false>::_S_base((anonymous namespace)::TrieNode**) (119x)
+    .  
+    .    // Likewise, for move_iterator.
+    .    template<typename _Iterator>
+    .      struct _Miter_base
+    .      : _Iter_base<_Iterator, __is_move_iterator<_Iterator>::__value>
+    .      { };
+    .  
+    .    template<typename _Iterator>
+    .      inline typename _Miter_base<_Iterator>::iterator_type
+  272      __miter_base(_Iterator __it)
+  340      { return std::_Miter_base<_Iterator>::_S_base(__it); }
+1,088  => /usr/include/c++/4.8.2/bits/stl_iterator_base_types.h:std::_Iter_base<std::move_iterator<(anonymous namespace)::TrieNode**>, true>::_S_base(std::move_iterator<(anonymous namespace)::TrieNode**>) (68x)
+    .  
+    .    // All of these auxiliary structs serve two purposes.  (1) Replace
+    .    // calls to copy with memmove whenever possible.  (Memmove, not memcpy,
+    .    // because the input and output ranges are permitted to overlap.)
+    .    // (2) If we're using random access iterators, then write the loop as
+    .    // a for loop with an explicit count.
+    .  
+    .    template<bool, bool, typename>
+-- line 297 ----------------------------------------
+-- line 360 ----------------------------------------
+    .      };
+    .  #endif
+    .  
+    .    template<bool _IsMove>
+    .      struct __copy_move<_IsMove, true, random_access_iterator_tag>
+    .      {
+    .        template<typename _Tp>
+    .          static _Tp*
+  204          __copy_m(const _Tp* __first, const _Tp* __last, _Tp* __result)
+    .          {
+  204  	  const ptrdiff_t _Num = __last - __first;
+   68  	  if (_Num)
+    .  	    __builtin_memmove(__result, __first, sizeof(_Tp) * _Num);
+  136  	  return __result + _Num;
+   68  	}
+    .      };
+    .  
+    .    template<bool _IsMove, typename _II, typename _OI>
+    .      inline _OI
+  204      __copy_move_a(_II __first, _II __last, _OI __result)
+    .      {
+    .        typedef typename iterator_traits<_II>::value_type _ValueTypeI;
+    .        typedef typename iterator_traits<_OI>::value_type _ValueTypeO;
+    .        typedef typename iterator_traits<_II>::iterator_category _Category;
+    .        const bool __simple = (__is_trivial(_ValueTypeI)
+    .  	                     && __is_pointer<_II>::__value
+    .  	                     && __is_pointer<_OI>::__value
+   34  			     && __are_same<_ValueTypeI, _ValueTypeO>::__value);
+    .  
+    .        return std::__copy_move<_IsMove, __simple,
+  204  	                      _Category>::__copy_m(__first, __last, __result);
+  680  => /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<(anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode* const*, (anonymous namespace)::TrieNode* const*, (anonymous namespace)::TrieNode**) (34x)
+   68      }
+    .  
+    .    // Helpers for streambuf iterators (either istream or ostream).
+    .    // NB: avoid including <iosfwd>, relatively large.
+    .    template<typename _CharT>
+    .      struct char_traits;
+    .  
+    .    template<typename _CharT, typename _Traits>
+    .      class istreambuf_iterator;
+-- line 399 ----------------------------------------
+-- line 416 ----------------------------------------
+    .    template<bool _IsMove, typename _CharT>
+    .      typename __gnu_cxx::__enable_if<__is_char<_CharT>::__value,
+    .  				    _CharT*>::__type
+    .      __copy_move_a2(istreambuf_iterator<_CharT, char_traits<_CharT> >,
+    .  		   istreambuf_iterator<_CharT, char_traits<_CharT> >, _CharT*);
+    .  
+    .    template<bool _IsMove, typename _II, typename _OI>
+    .      inline _OI
+  272      __copy_move_a2(_II __first, _II __last, _OI __result)
+    .      {
+    .        return _OI(std::__copy_move_a<_IsMove>(std::__niter_base(__first),
+    .  					     std::__niter_base(__last),
+  510  					     std::__niter_base(__result)));
+1,530  => /usr/include/c++/4.8.2/bits/stl_algobase.h:std::_Niter_base<(anonymous namespace)::TrieNode**>::iterator_type std::__niter_base<(anonymous namespace)::TrieNode**>((anonymous namespace)::TrieNode**) (102x)
+1,190  => /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::__copy_move_a<true, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**>((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**) (34x)
+  170      }
+    .  
+    .    /**
+    .     *  @brief Copies the range [first,last) into result.
+    .     *  @ingroup mutating_algorithms
+    .     *  @param  __first  An input iterator.
+    .     *  @param  __last   An input iterator.
+    .     *  @param  __result An output iterator.
+    .     *  @return   result + (first - last)
+-- line 437 ----------------------------------------
+-- line 442 ----------------------------------------
+    .     *  optimizations such as unrolling).  Result may not be contained within
+    .     *  [first,last); the copy_backward function should be used instead.
+    .     *
+    .     *  Note that the end of the output range is permitted to be contained
+    .     *  within [first,last).
+    .    */
+    .    template<typename _II, typename _OI>
+    .      inline _OI
+  238      copy(_II __first, _II __last, _OI __result)
+    .      {
+    .        // concept requirements
+    .        __glibcxx_function_requires(_InputIteratorConcept<_II>)
+    .        __glibcxx_function_requires(_OutputIteratorConcept<_OI,
+    .  	    typename iterator_traits<_II>::value_type>)
+    .        __glibcxx_requires_valid_range(__first, __last);
+    .  
+    .        return (std::__copy_move_a2<__is_move_iterator<_II>::__value>
+    .  	      (std::__miter_base(__first), std::__miter_base(__last),
+  374  	       __result));
+3,672  => /usr/include/c++/4.8.2/bits/stl_algobase.h:(anonymous namespace)::TrieNode** std::__copy_move_a2<true, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**>((anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**, (anonymous namespace)::TrieNode**) (34x)
+1,700  => /usr/include/c++/4.8.2/bits/stl_algobase.h:std::_Miter_base<std::move_iterator<(anonymous namespace)::TrieNode**> >::iterator_type std::__miter_base<std::move_iterator<(anonymous namespace)::TrieNode**> >(std::move_iterator<(anonymous namespace)::TrieNode**>) (68x)
+  136      }
+    .  
+    .  #if __cplusplus >= 201103L
+    .    /**
+    .     *  @brief Moves the range [first,last) into result.
+    .     *  @ingroup mutating_algorithms
+    .     *  @param  __first  An input iterator.
+    .     *  @param  __last   An input iterator.
+    .     *  @param  __result An output iterator.
+-- line 469 ----------------------------------------
+-- line 738 ----------------------------------------
+    .  	   __niter > 0; --__niter, ++__first)
+    .  	*__first = __value;
+    .        return __first;
+    .      }
+    .  
+    .    template<typename _OutputIterator, typename _Size, typename _Tp>
+    .      inline typename
+    .      __gnu_cxx::__enable_if<__is_scalar<_Tp>::__value, _OutputIterator>::__type
+   85      __fill_n_a(_OutputIterator __first, _Size __n, const _Tp& __value)
+    .      {
+   51        const _Tp __tmp = __value;
+1,853        for (__decltype(__n + 0) __niter = __n;
+    .  	   __niter > 0; --__niter, ++__first)
+1,326  	*__first = __tmp;
+   17        return __first;
+   34      }
+    .  
+    .    template<typename _Size, typename _Tp>
+    .      inline typename
+    .      __gnu_cxx::__enable_if<__is_byte<_Tp>::__value, _Tp*>::__type
+    .      __fill_n_a(_Tp* __first, _Size __n, const _Tp& __c)
+    .      {
+    .        std::__fill_a(__first, __first + __n, __c);
+    .        return __first + __n;
+-- line 761 ----------------------------------------
+-- line 773 ----------------------------------------
+    .     *  types filling contiguous areas of memory, this becomes an inline call
+    .     *  to @c memset or @ wmemset.
+    .     *
+    .     *  _GLIBCXX_RESOLVE_LIB_DEFECTS
+    .     *  DR 865. More algorithms that throw away information
+    .    */
+    .    template<typename _OI, typename _Size, typename _Tp>
+    .      inline _OI
+  102      fill_n(_OI __first, _Size __n, const _Tp& __value)
+    .      {
+    .        // concept requirements
+    .        __glibcxx_function_requires(_OutputIteratorConcept<_OI, _Tp>)
+    .  
+  136        return _OI(std::__fill_n_a(std::__niter_base(__first), __n, __value));
+  255  => /usr/include/c++/4.8.2/bits/stl_algobase.h:std::_Niter_base<(anonymous namespace)::TrieNode**>::iterator_type std::__niter_base<(anonymous namespace)::TrieNode**>((anonymous namespace)::TrieNode**) (17x)
+3,366  => /usr/include/c++/4.8.2/bits/stl_algobase.h:__gnu_cxx::__enable_if<std::__is_scalar<(anonymous namespace)::TrieNode*>::__value, (anonymous namespace)::TrieNode**>::__type std::__fill_n_a<(anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode*>((anonymous namespace)::TrieNode**, unsigned long, (anonymous namespace)::TrieNode* const&) (17x)
+   34      }
+    .  
+    .    template<bool _BoolType>
+    .      struct __equal
+    .      {
+    .        template<typename _II1, typename _II2>
+    .          static bool
+    .          equal(_II1 __first1, _II1 __last1, _II2 __first2)
+    .          {
+-- line 795 ----------------------------------------
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: TrieTree.cpp
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 30 ----------------------------------------
+  .  namespace {
+  .  
+  .  static const int offset   = 97;
+  .  static const int capacity = 26;
+  .  
+  .  class TrieNode {
+  .  public:
+  .      // Initialize your data structure here.
+170      TrieNode(char c = 0) {
+799  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::vector() (17x)
+102          _child_nodes.resize(capacity, NULL);
+27,999  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::resize(unsigned long, (anonymous namespace)::TrieNode* const&) (17x)
+ 51          _character  = c;
+ 51          _freq       = 0;
+ 68      }
+  .  
+ 80      void insert(TrieNode *nod) {
+ 64          char c = nod->character();
+112  => TrieTree.cpp:(anonymous namespace)::TrieNode::character() const (16x)
+ 32          assert(c != 0);
+112          assert(node(c) == NULL);
+624  => TrieTree.cpp:(anonymous namespace)::TrieNode::node(char) const (16x)
+192          _child_nodes[index(c)] = nod;
+144  => TrieTree.cpp:(anonymous namespace)::TrieNode::index(char) const (16x)
+176  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::operator[](unsigned long) (16x)
+ 32      }
+  .  
+988      TrieNode* node(char c) const {return _child_nodes[index(c)];}
+468  => TrieTree.cpp:(anonymous namespace)::TrieNode::index(char) const (52x)
+572  => /usr/include/c++/4.8.2/bits/stl_vector.h:std::vector<(anonymous namespace)::TrieNode*, std::allocator<(anonymous namespace)::TrieNode*> >::operator[](unsigned long) const (52x)
+ 36      void add(int add) {_freq += add;}
+612      int  index(char c) const {return (int)c - offset;}
+  .      bool root() const {return _character == 0;}
+112      char character() const {return _character;}
+  7      int  frequency() const {return _freq;}
+  .  
+  .  private:
+  .      vector<TrieNode*> _child_nodes;
+  .      char              _character;
+  .      int               _freq;
+  .  };
+  .  
+  .  class Trie {
+  .  public:
+  6      Trie() {
+ 10          root = new TrieNode();
+1,720  => TrieTree.cpp:(anonymous namespace)::TrieNode::TrieNode(char) (1x)
+195  => ???:operator new(unsigned long) (1x)
+  5      }
+  .  
+  .      // Inserts a word into the trie.
+ 21      void insert(string word) {
+  .  
+  9          TrieNode *current = root;
+302          for(auto it = word.begin(); it != word.end(); ++it)
+608  => /usr/include/c++/4.8.2/bits/stl_iterator.h:bool __gnu_cxx::operator!=<char*, std::string>(__gnu_cxx::__normal_iterator<char*, std::string> const&, __gnu_cxx::__normal_iterator<char*, std::string> const&) (19x)
+171  => ???:std::string::end() (19x)
+176  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<char*, std::string>::operator++() (16x)
+799  => ???:std::string::begin() (3x)
+1,730  => ???:_dl_runtime_resolve (2x)
+  .          {
+ 80              char c = *it;
+112  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<char*, std::string>::operator*() const (16x)
+144              if(current->node(c) == NULL) {
+624  => TrieTree.cpp:(anonymous namespace)::TrieNode::node(char) const (16x)
+192                  current->insert(new TrieNode(c));
+27,520  => TrieTree.cpp:(anonymous namespace)::TrieNode::TrieNode(char) (16x)
+1,568  => TrieTree.cpp:(anonymous namespace)::TrieNode::insert((anonymous namespace)::TrieNode*) (16x)
+3,120  => ???:operator new(unsigned long) (16x)
+  .              }
+ 96              current = current->node(c);
+624  => TrieTree.cpp:(anonymous namespace)::TrieNode::node(char) const (16x)
+  .          }
+  6          assert(current);
+ 15          current->add(1);
+ 36  => TrieTree.cpp:(anonymous namespace)::TrieNode::add(int) (3x)
+ 15      }
+  .  
+  .      // Returns if the word is in the trie.
+  6      bool search(string word) {
+ 23          return _search(word, false);
+114  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (1x)
+ 25  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&) (1x)
+881  => ???:_dl_runtime_resolve (1x)
+1,313  => TrieTree.cpp:(anonymous namespace)::Trie::_search(std::string, bool) (1x)
+  4      }
+  .  
+  .      // Returns if there is any word in the trie
+  .      // that starts with the given prefix.
+  6      bool startsWith(string prefix) {
+ 19          return _search(prefix, true);
+114  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (1x)
+ 25  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(std::string const&) (1x)
+481  => TrieTree.cpp:(anonymous namespace)::Trie::_search(std::string, bool) (1x)
+  4      }
+  .  
+ 14      bool _search(string word, bool ignoreLast) {
+  6          TrieNode *current = root;
+ 66          for(auto it = word.begin(); it != word.end(); ++it) {
+128  => /usr/include/c++/4.8.2/bits/stl_iterator.h:bool __gnu_cxx::operator!=<char*, std::string>(__gnu_cxx::__normal_iterator<char*, std::string> const&, __gnu_cxx::__normal_iterator<char*, std::string> const&) (4x)
+ 36  => ???:std::string::end() (4x)
+ 22  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<char*, std::string>::operator++() (2x)
+1,288  => ???:std::string::begin() (2x)
+ 10              char c = *it;
+ 14  => /usr/include/c++/4.8.2/bits/stl_iterator.h:__gnu_cxx::__normal_iterator<char*, std::string>::operator*() const (2x)
+ 18              if(current->node(c) == NULL) return false;
+ 78  => TrieTree.cpp:(anonymous namespace)::TrieNode::node(char) const (2x)
+ 12              current = current->node(c);
+ 78  => TrieTree.cpp:(anonymous namespace)::TrieNode::node(char) const (2x)
+  .          }
+ 13          return (ignoreLast || (current->frequency() <= 0))?true:false;
+  7  => TrieTree.cpp:(anonymous namespace)::TrieNode::frequency() const (1x)
+  4      }
+  .  
+  .  private:
+  .      TrieNode* root;
+  .  };
+  .  
+  .  
+  .  } // namespace
+  .  
+  .  // Your Trie object will be instantiated and called as such:
+  .  // Trie trie;
+  .  // trie.insert("somestring");
+  .  // trie.search("key");
+  .  
+  .  
+  .  int main(int argc, char const *argv[])
+  7  {
+  8      ifstream ifs;
+1,391  => ???:_dl_runtime_resolve (1x)
+6,295  => ???:std::basic_ifstream<char, std::char_traits<char> >::basic_ifstream() (1x)
+ 10      ifs.open("word.txt", std::ifstream::in);
+1,729  => ???:_dl_runtime_resolve (1x)
+66,830  => ???:std::basic_ifstream<char, std::char_traits<char> >::open(char const*, std::_Ios_Openmode) (1x)
+ 11      auto tree = new Trie();
+1,936  => TrieTree.cpp:(anonymous namespace)::Trie::Trie() (1x)
+195  => ???:operator new(unsigned long) (1x)
+753  => ???:_dl_runtime_resolve (1x)
+ 39      tree->insert("ab");
+  1  => ???:std::allocator<char>::~allocator() (1x)
+2,654  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (1x)
+6,978  => TrieTree.cpp:(anonymous namespace)::Trie::insert(std::string) (1x)
+3,529  => ???:_dl_runtime_resolve (4x)
+  1  => ???:std::allocator<char>::allocator() (1x)
+4,523  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (1x)
+ 23      tree->insert("hell");
+  1  => ???:std::allocator<char>::~allocator() (1x)
+114  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (1x)
+8,904  => TrieTree.cpp:(anonymous namespace)::Trie::insert(std::string) (1x)
+  1  => ???:std::allocator<char>::allocator() (1x)
+218  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (1x)
+ 23      tree->insert("worldhello");
+  1  => ???:std::allocator<char>::~allocator() (1x)
+114  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (1x)
+22,086  => TrieTree.cpp:(anonymous namespace)::Trie::insert(std::string) (1x)
+  1  => ???:std::allocator<char>::allocator() (1x)
+215  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (1x)
+ 48      cout << "is the tree has word <helloworld>?: " << tree->search("a") << endl;
+119  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (1x)
+5,311  => ???:std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (1x)
+  1  => ???:std::allocator<char>::allocator() (1x)
+196  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (1x)
+2,366  => TrieTree.cpp:(anonymous namespace)::Trie::search(std::string) (1x)
+  1  => ???:std::allocator<char>::~allocator() (1x)
+5,585  => ???:std::ostream::operator<<(std::ostream& (*)(std::ostream&)) (1x)
+5,834  => ???:std::ostream::operator<<(bool) (1x)
+3,255  => ???:_dl_runtime_resolve (3x)
+ 36      cout << "is the tree contain <hello>? " << tree->startsWith("a") << endl;
+119  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::~basic_string() (1x)
+433  => ???:std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*) (1x)
+649  => TrieTree.cpp:(anonymous namespace)::Trie::startsWith(std::string) (1x)
+  1  => ???:std::allocator<char>::allocator() (1x)
+196  => ???:std::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) (1x)
+  1  => ???:std::allocator<char>::~allocator() (1x)
+347  => ???:std::ostream::operator<<(std::ostream& (*)(std::ostream&)) (1x)
+391  => ???:std::ostream::operator<<(bool) (1x)
+ 11      return 0;
+11,257  => ???:std::basic_ifstream<char, std::char_traits<char> >::~basic_ifstream() (1x)
+1,375  => ???:_dl_runtime_resolve (1x)
+ 23  }91,242  => TrieTree.cpp:__static_initialization_and_destruction_0(int, int) (1x)
+
+--------------------------------------------------------------------------------
+-- Auto-annotated source: /usr/include/c++/4.8.2/ext/new_allocator.h
+--------------------------------------------------------------------------------
+ Ir 
+
+-- line 71 ----------------------------------------
+  .          { typedef new_allocator<_Tp1> other; };
+  .  
+  .  #if __cplusplus >= 201103L
+  .        // _GLIBCXX_RESOLVE_LIB_DEFECTS
+  .        // 2103. propagate_on_container_move_assignment
+  .        typedef std::true_type propagate_on_container_move_assignment;
+  .  #endif
+  .  
+ 85        new_allocator() _GLIBCXX_USE_NOEXCEPT { }
+  .  
+  .        new_allocator(const new_allocator&) _GLIBCXX_USE_NOEXCEPT { }
+  .  
+  .        template<typename _Tp1>
+  .          new_allocator(const new_allocator<_Tp1>&) _GLIBCXX_USE_NOEXCEPT { }
+  .  
+  .        ~new_allocator() _GLIBCXX_USE_NOEXCEPT { }
+  .  
+-- line 87 ----------------------------------------
+-- line 91 ----------------------------------------
+  .  
+  .        const_pointer
+  .        address(const_reference __x) const _GLIBCXX_NOEXCEPT
+  .        { return std::__addressof(__x); }
+  .  
+  .        // NB: __n is permitted to be 0.  The C++ standard says nothing
+  .        // about what the return value is when __n == 0.
+  .        pointer
+102        allocate(size_type __n, const void* = 0)
+  .        { 
+119  	if (__n > this->max_size())
+102  => /usr/include/c++/4.8.2/ext/new_allocator.h:__gnu_cxx::new_allocator<(anonymous namespace)::TrieNode*>::max_size() const (17x)
+  .  	  std::__throw_bad_alloc();
+  .  
+ 85  	return static_cast<_Tp*>(::operator new(__n * sizeof(_Tp)));
+3,162  => ???:operator new(unsigned long) (17x)
+ 34        }
+  .  
+  .        // __p is not permitted to be a null pointer.
+  .        void
+  .        deallocate(pointer __p, size_type)
+  .        { ::operator delete(__p); }
+  .  
+  .        size_type
+153        max_size() const _GLIBCXX_USE_NOEXCEPT
+153        { return size_t(-1) / sizeof(_Tp); }
+  .  
+  .  #if __cplusplus >= 201103L
+  .        template<typename _Up, typename... _Args>
+  .          void
+  .          construct(_Up* __p, _Args&&... __args)
+  .  	{ ::new((void *)__p) _Up(std::forward<_Args>(__args)...); }
+  .  
+  .        template<typename _Up>
+-- line 122 ----------------------------------------
+
+--------------------------------------------------------------------------------
+Ir 
+--------------------------------------------------------------------------------
+ 2  percentage of events annotated
+
